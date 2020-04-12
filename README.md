@@ -1,68 +1,71 @@
+# Jotto
+
+[Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [Application Showcase](#app-showcase) | [Installation Instructions](#installation)
+
+## <a name="description">Description</a>
+
+Jotto (or Giotto) is a logic-oriented word game played with two players, a writing implement, and a piece of paper with the alphabet on it. Each player writes a secret word and attempts to guess the other player's word.
+
+*Tech Stack: JavaScript, React, Node, CSS, HTML, Jest, Enzyme, Webpack, Babel*
+
+## <a name="user-stories">User Stories</a>
+
+```
+As a player of Jotto,
+I expect to see a text input box, where I can make my guesses.
+```
+```
+As a player of Jotto,
+when I make a guess, 
+I expect to see my guesses populate a table, with a count of the number of letters that word has in common with the secret word.
+```
+```
+As a player of Jotto,
+when I guess the secret word correctly, 
+I expect to see a message telling me i've won.
+```
+
+## <a name="mockups">Mockups</a>
+
+Initial Game Setup:
+
+![Mockup Initial State](https://github.com/BenSheridanEdwards/Jotto_Game_React/blob/master/media/Mockups/Jotto-Mockup1.png)
+
+As the player begins to make guesses, a table of their guesses grows that indicate the number of correct matching letters for each word:
+
+![Mockup Guesses Table](https://github.com/BenSheridanEdwards/Jotto_Game_React/blob/master/media/Mockups/Jotto-Mockup2.png)
+
+When a player guesses the secret word correctly, they'll be shown a message telling them they've won the game.
+
+![Mockup Win Scenario](https://github.com/BenSheridanEdwards/Jotto_Game_React/blob/master/media/Mockups/Jotto-Mockup3.png)
+
+<a name="app-showcase"><br /></a>
+
+## Application Showcase
+
+![Application Screenrecording]()
+
+## <a name="installation">Installation Instructions</a>
+
+Clone this repository from github then change directory into it.
+
+```
+$ git clone git@github.com:BenSheridanEdwards/Jotto_Game_React.git
+$ cd Jotto_Game_React
+```
+
+From inside the React project, you can run `npm start` in the terminal to launch the app in the browser.
+
+```
+$ npm start
+```
+
+Launching the app from the command line should open up a new tab in your default browser. If it doesn't, you can navigate to [http://localhost:3000](http://localhost:3000) to view the application.<br />
+
+### Credit
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
