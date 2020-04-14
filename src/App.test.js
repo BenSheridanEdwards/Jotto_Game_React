@@ -18,6 +18,6 @@ const findByTestAttr = (wrapper, val) => {
 
 test('renders without error', () => {
   const wrapper = setup();
-  const appComponent = findByTestAttr(wrapper, 'app-component');
+  const appComponent = findByTestAttr(wrapper, 'component-app');
   expect(appComponent.length).toBe(1);
 });
