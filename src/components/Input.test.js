@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme'
 
-import { findByTestAttr, storeFactory } from '../test/testUtils';
+import { findByTestAttr, storeFactory } from '../../test/testUtils';
 import Input from './Input'
 
 const setup = (initialState={}) => {
@@ -61,8 +61,8 @@ describe('render', () => {
   })
 })
 
-describe('update state', () => {
+// describe('update state', () => {
 
-  test('', () => {})
+//   test('', () => {})
   
-})
+// })
