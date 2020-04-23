@@ -6,7 +6,7 @@
 
 Jotto (or Giotto) is a logic-oriented word game played with two players, a writing implement, and a piece of paper with the alphabet on it. Each player writes a secret word and attempts to guess the other player's word.
 
-*Tech Stack: JavaScript, React, Node, CSS, HTML, Jest, Enzyme, Webpack, Babel*
+*Tech Stack: JavaScript, React, Redux, Node, CSS, HTML, Jest, Enzyme, Axios, Webpack, Babel*
 
 ## <a name="user-stories">User Stories</a>
 
