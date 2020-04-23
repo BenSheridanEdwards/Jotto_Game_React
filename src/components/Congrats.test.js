@@ -23,6 +23,7 @@ it('renders successfully', () =>{
   const component = findByTestAttr(wrapper, 'component-congrats');
   expect(component.length).toBe(1)
 });
+
 it('renders no text when `success` prop is false', () => {
   const wrapper = setup({ success: false });
   const component = findByTestAttr(wrapper, 'component-congrats');
